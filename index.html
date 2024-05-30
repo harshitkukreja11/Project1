@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&M Clone</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search input {
+    padding: 5px;
+}
+
+.hero {
+    background-color: #eee;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">H&M</div>
+        <nav>
+            <ul>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to H&M</h1>
+            <p>Discover the latest fashion trends.</p>
+        </section>
+
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="https://lp2.hm.com/hmgoepprod?set=source[/ca/fa/cafa4b18cb4d056a95fbe0b971b1212e7875dd95.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$20.00</p>
+                </div>
+                <div class="product">
+                    <img src="https://lp2.hm.com/hmgoepprod?set=source[/a4/de/a4de68ca300b1ad36c57b3ea9e4a115f1a753bb9.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$25.00</p>
+                </div>
+                <div class="product">
+                    <img src="https://lp2.hm.com/hmgoepprod?set=source[/97/99/9799d9c041aa0b774e8fcca8fed0b7d0a4137391.jpg],origin[dam],category[men_tshirtstanks_shortsleeve],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>$30.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 H&M. All rights reserved.</p>
+    </footer>
+</body>
+</html>
